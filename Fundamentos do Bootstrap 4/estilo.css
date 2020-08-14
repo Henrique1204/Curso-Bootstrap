@@ -1,0 +1,38 @@
+body {
+    padding-top: 76.2px;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.icone {
+    height: 100px;
+}
+
+.home-quote {
+    background: url("img/bg-quote.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pergunta {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.lista-redes-sociais .btn {
+    max-width: 140px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+    
+    .home-quote .display-4 {
+        font-size: 2.5rem;
+    }
+
+    nav.fixed-top {
+        position: relative;
+    }
+}
